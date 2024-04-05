@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Anaya West Portfilio Site</title>
+   <link rel="stylesheet" href="website.css">
+</head>
+<body>
+ <header class="header">
+   <nav class="nav_bar">
+     <img class="Hamburger_Bars" id="bars" src="./Images/bars-solid.svg" alt="Hamburger Menu">
+       <ul class="nav_links">
+<li><a href="index.html">Home</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Portfolio.html">Portfolio</a></li>
+<li><a id="contact" href="Contact.html">Contact</a></li>
+       </ul>
+       <ul class="left_side_buttons">
+       <li id="clock-border"><img class="Color_Of_LeftElements" id="clock" src="./Images/clock-regular.svg" alt="Clock Picture"></li>
+         <li class="moon-border"><img class="Color_Of_LeftElements" id="moon" src="./Images/9023619_moon_stars_fill_icon.svg" alt="Moon Picture With Stars"></li>
+         <li><img class="Color_Of_LeftElements" id="West-Logo" src="./Images/logo-no-background.png" alt="Logo West"></li>
+                 </ul>
+   </nav> 
+ </header>
+
+<section class="main_Contact">
+  <h1>Contact Me</h1>
+  <form id="contact">
+
+    <label for="firstName">FirstName</label>
+    <br>
+    <input type="text" name="firstName" id="firstName" placeholder="Enter Firstname"><br>
+    <br>
+    <label for="lastName">LastName</label><br>
+    <input type="text" name="lastName" id="lastName"  placeholder="Enter Lastname"><br>
+    <br>
+    <label for="telephoneNumber">Telephone</label><br>
+    <input type="tel" name="telephoneNumber" id="telephoneNumber"   placeholder="Enter Telephone"><br>
+    <br>
+    <label for="birthdate">Date Of Birth</label><br>
+    <input type="date" name="birthdate" id="birthdate" placeholder="02/09/24"><br>
+    <br>
+    <label for="message">Messages</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" id="submitButton">
+    <p id="Error"></p>
+
+  </form>
+</section>
+ </div>
+ </body>
+ <script src="website.js"></script>
+</html> 
